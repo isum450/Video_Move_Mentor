@@ -16,8 +16,8 @@ git commit -m "feat: add login page"
 
 # Git branch 규칙
 
-1. 개인 작업은 feature 브랜치 만들어서 하기  ex) feature/lyj
-2. Pull Request할 때 카톡방 공지하고, merge 전 approve 받기
+1. 개인 작업은 feature 브랜치 만들어서 하기  ex) lsm/feature/name
+2. Pull Request할 때 미리 공지 후 merge 전 approve 받기
 
 ## branch 생성 흐름
 
