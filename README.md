@@ -23,7 +23,8 @@
 
 - WebSocket: 실시간 양방향 통신 프로토콜입니다. 서버와 클라이언트 간 실시간 데이터 통신
 
-  ![image](https://github.com/user-attachments/assets/4dec17ca-ac28-4512-aaf4-5347119755fd)
+ ![image](https://github.com/user-attachments/assets/06138f70-b237-463e-85ae-a066f1296934)
+
 
 ### 프론트엔드 기술 스택
 - React: JavaScript 라이브러리로, 사용자 인터페이스를 효율적으로 개발 가능, 가상 DOM을 이용하여 빠르고 효율적인 렌더링을 제공 ,재사용 가능한 컴포넌트를 만들어 복잡한 UI를 관리 용이함
