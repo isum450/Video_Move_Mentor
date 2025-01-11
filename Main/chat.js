@@ -18,9 +18,8 @@ sendButton.addEventListener('click', () => {
 socket.on('chatting', (data) => {
   const { name, msg, time } = data;
   const item = new LiModel(name, msg, time);
-  chatList.appendChild(li);
+  item.makeLi();
 });
-
 
 function LiModel(name, msg, time) {
   this.name = name;
@@ -32,10 +31,9 @@ function LiModel(name, msg, time) {
     li.classList.add(nickname.value === this.name ? 'sent' : 'received');
     const dom = `<span class="profile">
     <span class="user">${this.name}</span>
-    <img class="image" src="https://placeimg.com/50/50/any" alt="any" />
-  </span>
-  <span class="message">${this.msg}</span>
-  <span class="time">${this.time}</span>`;
+    <img class="image" src="https://placeimg.com/50/50/any" alt="any" /></span>
+    <span class="message">${this.msg}</span>
+    <span class="time">${this.time}</span>`;
 
     li.innerHTML = dom;
     chatList.appendChild(li);
