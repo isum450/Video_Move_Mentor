@@ -1,0 +1,20 @@
+{
+  "name": "video_move_mentor",
+  "version": "0.0.1",
+  "description": "�? ?��로젝?��?�� ?��?��?��?�� ?��?�� ?��?���? ?��?��간으�? 분석?��?�� ?��?��?�� ?��?���? ?��?��?���?, ?��?�� ?��과�?? 극�???��?��?�� 것을 목표�? ?��?��?��. OpenCV�? ?��?��?��?�� ?��?��?�� 처리?���?, TensorFlow�? ?��?��?��?�� ?��?��?�� 모델?�� 기반?���? ?��?���? 분석?��?��.",
+  "main": "main.js",
+  "scripts": {
+    "backend" : "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
